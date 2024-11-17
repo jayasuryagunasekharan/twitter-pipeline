@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "twitter-data-pipeline"
+version = "0.1.0"
+description = ""
+authors = ["jayasuryagunasekharan <jayasurya.guna@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.3"
+tweepy = "^4.14.0"
+s3fs = "^2024.10.0"
+python-dotenv = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
