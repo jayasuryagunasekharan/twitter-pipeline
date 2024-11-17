@@ -1,0 +1,5 @@
+# Ignore .env file
+.env
+
+# Ignore configuration files
+twitter_data_pipeline/config.py
